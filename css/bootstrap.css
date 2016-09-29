@@ -48,6 +48,8 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+ 
+  
 }
 dfn {
   font-style: italic;
@@ -2362,6 +2364,7 @@ select[multiple].input-sm {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px;
+  float: right;
 }
 select.input-lg {
   height: 46px;
