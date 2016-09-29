@@ -112,7 +112,7 @@ li.item{
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-     
+    
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
@@ -166,31 +166,31 @@ h1, h2, p, span, a {
 }
 /*========================
     NAV
-=========================*/
-div#bs-example-navbar-collapse-1 {
-    height: 368px;
-    overflow: hidden;
-    text-align: center;
-    text-decoration: none !important;
-}
-.navbar-brand{
-    font-family: 'Pacifico', cursive;
-    font-size: 34px !important;
-    text-decoration: none;
-    color: white !important;
-}
+    =========================*/
+    div#bs-example-navbar-collapse-1 {
+        height: 368px;
+        overflow: hidden;
+        text-align: center;
+        text-decoration: none !important;
+    }
+    .navbar-brand{
+        font-family: 'Pacifico', cursive;
+        font-size: 34px !important;
+        text-decoration: none;
+        color: white !important;
+    }
 
-nav {
-    background: #1E1E1E !important;
-    font-size: 18px;
-    color: white !important;
-}
+    nav {
+        background: #1E1E1E !important;
+        font-size: 18px;
+        color: white !important;
+    }
 
-li{
-    color: white !important;
-    /*padding-left: 10px;*/
-    word-spacing: 5px !important;
-}
+    li{
+        color: white !important;
+        /*padding-left: 10px;*/
+        word-spacing: 5px !important;
+    }
 /*========================
 INTRO CONTAINER
 =========================*/
@@ -222,7 +222,7 @@ INTRO CONTAINER
     font-family: 'Playball', cursive;
     font-size: 120px;
     font-weight: 400;
- }
+}
 .second-title {
     font-weight: lighter; 
     font-size: 30px; 
@@ -236,70 +236,70 @@ INTRO CONTAINER
 
 /* ========================
     IMAGE INTRO BANNER CONTENT
-   =========================*/
+    =========================*/
 
-.background_content {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    height: 350px;
-    background-color: white;
-    margin: 0 auto 0 auto;
-    z-index: 98;
-    text-align: center;
-}
+    .background_content {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 350px;
+        background-color: white;
+        margin: 0 auto 0 auto;
+        z-index: 98;
+        text-align: center;
+    }
 
-.background_content h1 {
-    font-size: 3em;
-    width: 60%;
-    position: relative;
-    top: 24%;
-    color: white;
-    padding: 0;
-    border: 0;
-    display: inline-block;
-}
+    .background_content h1 {
+        font-size: 3em;
+        width: 60%;
+        position: relative;
+        top: 24%;
+        color: white;
+        padding: 0;
+        border: 0;
+        display: inline-block;
+    }
 
-.background_content h1 span {
-    color: white;
-    border-bottom: 8px solid #fff;
-}
+    .background_content h1 span {
+        color: white;
+        border-bottom: 8px solid #fff;
+    }
 
-.beer.background_content{
-    background: url('../images/beer.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: 70% 50%;
-}
+    .beer.background_content{
+        background: url('../images/beer.jpg') no-repeat center center; 
+        background-size: cover;
+        background-position: 70% 50%;
+    }
 
-.bread.background_content{
-    background: url('../images/bread.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: 70% 50%;
-}
- .featured.background_content{
-    background: url('../images/featured.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
- .pricing.background_content{
-    background: url('../images/pricing.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-.reservation.background_content{
-    background: url('../images/reservation-seat.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-.bread.background_content{
-    background: url('../images/breakfast.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+    .bread.background_content{
+        background: url('../images/bread.jpg') no-repeat center center; 
+        background-size: cover;
+        background-position: 70% 50%;
+    }
+    .featured.background_content{
+        background: url('../images/featured.jpg') no-repeat center center; 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .pricing.background_content{
+        background: url('../images/pricing.jpg') no-repeat center center; 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .reservation.background_content{
+        background: url('../images/reservation-seat.jpg') no-repeat center center; 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .bread.background_content{
+        background: url('../images/breakfast.jpg') no-repeat center center; 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
 /*========================
 DESCRIPTION BODY CONTENT
 =========================*/
@@ -592,24 +592,24 @@ MEDIA QUERIES TABLET
 =========================*/
 
 
-    @media (min-width: 400px) { 
+@media (min-width: 400px) { 
     .starter_container {
         height: 100%;
     }
     .background_content h1 {
       top: 33%;
-    }  
+  }  
 }
 
 /*========================
 MEDIA QUERIES TABLET
 =========================*/
 
-    @media (min-width: 660px) { 
+@media (min-width: 660px) { 
   
-        .starter_container {
-            height: 100%;
-        }
+    .starter_container {
+        height: 100%;
+    }
 
     /*========================
     NAV
@@ -738,7 +738,7 @@ MEDIA QUERIES TABLET
         background-color: black;
         text-align: center;
         margin-bottom: 50px;
-  }
+    }
 
     .social_heading {
         font-size: 33px;
@@ -759,7 +759,7 @@ MEDIA QUERIES TABLET
         width: 325px;
     } 
 
-} /*END OF MEDIA QUERY*/
+    } /*END OF MEDIA QUERY*/
 
 /*========================
 MEDIA QUERIE DESKTOP
@@ -871,7 +871,7 @@ MEDIA QUERIE DESKTOP
     text-align: center;
     background-position: center; 
     opacity:0.7;
-     }
+}
 
 .Lunch_container {
     margin-top: 80px;
@@ -883,8 +883,8 @@ MEDIA QUERIE DESKTOP
     text-align: center;
     background-position: center; 
     /*opacity:0.9;*/ 
-    }
-    .dinner_container {
+}
+.dinner_container {
     margin-top: 80px;
     padding: 0;
     width: 100%;
@@ -897,13 +897,13 @@ MEDIA QUERIE DESKTOP
 
 
     .dessert_container {
-    margin-top: 80px;
-    padding: 0;
-    width: 100%;
-    height:auto;
-    background: url('../images/image-1.jpg') no-repeat center center;
-    background-size: cover;
-    text-align: center;
-    background-position: center; 
-    opacity:0.9; 
-}
+        margin-top: 80px;
+        padding: 0;
+        width: 100%;
+        height:auto;
+        background: url('../images/image-1.jpg') no-repeat center center;
+        background-size: cover;
+        text-align: center;
+        background-position: center; 
+        opacity:0.9; 
+    }

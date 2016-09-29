@@ -4,22 +4,22 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
+ body {
+ 	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+ }
 
-.sub_footer {
-  
-    background-color: black;
-    color:white;
+ .sub_footer {
+ 	
+ 	background-color: black;
+ 	color:white;
 
-}
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+ }
+ a {
+ 	color: #ffffff;
+ 	text-decoration: none;
+ }
 
-.navbar-brand{
-    font-family: 'Pacifico', cursive;
-   font-size: 35px;
-}
+ .navbar-brand{
+ 	font-family: 'Pacifico', cursive;
+ 	font-size: 35px;
+ }
