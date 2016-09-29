@@ -1,200 +1,506 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<html>
 
-    <title>Travel Buddy Home</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Season's Restaurant</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/css/sticky-footer.css" rel="stylesheet"> 
-    <link href="my_Styles.css" rel="stylesheet">
+    </head>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <body>
 
-    <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
-   
-  </head>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#top">Season's Restaurant</a>
+                    </div>
 
-  <body>
-
-    <!-- Fixed navbar -->
-    <nav id="navi" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><font color="white">Travel</font><font color="green">Buddy</font></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <!-- <li class="active"><a href="#">Home</a></li> -->
-            <!-- <li><a href="#about">About</a></li> -->
-            <!-- <li><a href="#contact">Profile</a></li> -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[Username] <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Account Settings</a></li>
-                <li><a href="#">View/Edit your profile</a></li>
-                <li><a href="#">Preferences</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="login.html">Login</a></li>
-            <li><a href="Sign-up.html">Signup</a></li>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">Welcome</a></li>
+                            <li><a class="color_animation" href="#story">About</a></li>
+                            <!-- <li><a class="color_animation" href="#pricing">PRICING</a></li> -->
+                            <li><a class="color_animation" href="#beer">Beer</a></li>
+                            <li><a class="color_animation" href="voucher/voucher.html">Voucher</a></li>
+                            <li><a class="color_animation" href="#featured">Featured</a></li>
+                            <li><a class="color_animation" href="#reservation">Reservation</a></li>
+                            <li><a class="color_animation" href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
          
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    
-
-
-    <div id="container2" class="container">
-
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="city_taxi.jpg" alt="">
-      <div class="carousel-caption">
-        <strong><h1>Find a Travel<font color="green">Buddy</font></h1></strong>
-      </div>
-    </div>
-    <div class="item">
-      <img src="city_taxi2.jpg" alt="">
-      <div class="carousel-caption">
-        <strong> <h1>Share a <font color="green">Cab</font></h1></strong>
-      </div>
-    </div>
-     <div class="item">
-      <img src="city_taxi3.jpg" alt="">
-      <div class="carousel-caption">
-       <strong>  <h1>Save <font color="green">Money</font></h1> </strong>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  
-</div>
-      
-<hr>
-      
-      <div class="row">
-        <div class="col-md-7"><div class="input-group">
-      <input type="text" class="form-control" placeholder="I want to go to...">
-      <span class="input-group-btn">
-        <a href="results.html" class="btn btn-success" type="button">Find a TravelBuddy</button></a>
-      </span>
-    </div><!-- /input-group --></div>
-        <div class="col-md-5"><div class="container">
-	<div class="row">
-        <div id="filter-panel" class="collapse filter-panel">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <form class="form-inline" role="form">
-                        <div class="form-group">
-                            <label class="filter-col" style="margin-right:0;" for="pref-perpage">Your party:</label>
-                            <select id="pref-perpage" class="form-control">
-                                
-                                <option selected="selected" value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                               
-                            </select>                                
-                        </div> <!-- form group [rows] -->
-                        
-                        <div class="form-group">
-                            <label class="filter-col" style="margin-right:0;" for="pref-orderby">Order by:</label>
-                            <select id="pref-orderby" class="form-control">
-                                <option>Rating</option>
-                                <option>Distance</option>
-                            </select>                                
-                        </div> <!-- form group [order by] --> 
-                        <div class="form-group">
-                            <label class="filter-col" style="margin-right:0;" for="pref-orderby">Age range:</label>
-                            <select id="pref-orderby" class="form-control">
-                                <option>18-30</option>
-                                <option>31-45</option>
-                                <option>46-55</option>
-                                <option>56+</option>
-                                <option>Don't mind</option>
-                            </select>                                
-                        </div> <!-- form group [order by] --> 
-                        <div class="form-group">
-                            <label class="filter-col" style="margin-right:0;" for="pref-orderby">Gender:</label>
-                            <select id="pref-orderby" class="form-control">
-                                <option>F</option>
-                                <option>M</option>
-                            
-                                <option>Don't mind</option>
-                            </select>                                
-                        </div> <!-- form group [order by] --> 
-                        <div class="form-group">    
-                           
-                            <button type="submit" class="btn btn-default filter-col">
-                                <span class="glyphicon glyphicon-record"></span> Save Settings
-                            </button>  
-                        </div>
-                    </form>
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title">Season's Restaurant</h2>
+                    <h2 class="white second-title">" Best in the city "</h2>
+                    <hr>
                 </div>
             </div>
-        </div>    
-        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#filter-panel">
-            <span class="glyphicon glyphicon-cog"></span> Advanced Search
-        </button>
-	</div>
-</div></div>
-      </div>
+        </div>
 
-      
-    </div> <!-- /container -->
-    <hr>
+        <!-- ============ About Us ============= -->
 
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">
-        	<ul class="list-inline text-center">
-	       		<li>&copy <strong>Travel<font color="green">Buddy</font></strong> 2016</li>
-	       		<li><a href="#">Careers</a></li>
-	       		<li><a href="#">About</a></li>
-	       		<li><a href="#">Privacy Policy</a></li>
-
-       		</ul>
-        </p>
-      </div>
-    </footer>
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">Restaurant is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible. Come join us and see what simplicity tastes like.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/kabob.jpg" width="250" height="220">
+                       <img src="images/limes.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/radish.jpg"  width="250" height="220">
+                       <img src="images/corn.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+       <!-- ============ Pricing  ============= -->
+
+
+        <!-- <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1><span>Affordable</span> pricing</h1>
+             </div>
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter="breakfast">Breakfast</li>
+                                <li class="filter" data-filter="special">Special</li>
+                                <li class="filter" data-filter="desert">Desert</li>
+                                <li class="filter" data-filter="dinner">Dinner</li>
+                            </ul> 
+                            <ul id="portfolio">
+                                <li class="item breakfast"><img src="images/food_icon01.jpg" alt="Food" >
+                                    <h2 class="white">€20</h2>
+                                </li>
+
+                                <li class="item dinner special"><img src="images/food_icon02.jpg" alt="Food" >
+                                    <h2 class="white">€20</h2>
+                                </li>
+                                <li class="item dinner breakfast"><img src="images/food_icon03.jpg" alt="Food" >
+                                    <h2 class="white">€18</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon04.jpg" alt="Food" >
+                                    <h2 class="white">€15</h2>
+                                </li>
+                                <li class="item dinner"><img src="images/food_icon05.jpg" alt="Food" >
+                                    <h2 class="white">€20</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon06.jpg" alt="Food" >
+                                    <h2 class="white">€22</h2>
+                                </li>
+                                <li class="item desert"><img src="images/food_icon07.jpg" alt="Food" >
+                                    <h2 class="white">€32</h2>
+                                </li>
+                                <li class="item desert breakfast"><img src="images/food_icon08.jpg" alt="Food" >
+                                    <h2 class="white">€38</h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section> -->
+
+
+        <!-- ============ Our Beer  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content">
+                <h1>Great <span>Place</span> to enjoy</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/beer_spec.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>OUR BEER</h1>
+                    <div class="icon-beer fa-2x"></div>
+                    <p class="desc-text">Here at Restaurant we’re all about the love of beer. New and bold flavors enter our doors every week, and we can’t help but show them off. While we enjoy the classics, we’re always passionate about discovering something new, so stop by and experience our craft at its best.</p>
+                    <!DOCTYPE html><br>
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    
+       
+    
+    <div class="container5">
+
+        <form action="" method="POST" role="form" id="search-beer">
+            <legend><h2><b>Check Beer Information</b></h2></legend>
+            <div class="form-group">
+                <label for=""><b>Look for a beer</b></label>
+                <input type="text" class="input-lg form-control" id="" placeholder="Enter some beers' name">
+            </div>
+            <button id="" type="submit" class="btn btn-primary">Search!</button>
+        </form>
+
+        <div id="results" class="hidden">
+            <p>Beers found:</p>
+            <select class="input-lg"></select>
+        </div>
+
+        <div id="details" class="hidden">
+            <div class="jumbotron">
+                <h1>Hello, world!</h1>
+                <img class="img-circle" src="" alt="">
+                <p class="description"></p>
+                <p class="organic">This beer <strong></strong> organic</p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
     <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </body>
+    <script>
+
+        $("#search-beer button").on('click', function(event) {
+            event.preventDefault();
+            var beerSearched = $("#search-beer input").val();
+            var urlSearchBeer = 'https://quiet-inlet-67115.herokuapp.com/api/search/all?q=' + beerSearched
+
+            $.ajax({
+                url: urlSearchBeer,
+                dataType: 'json'
+            })
+            .success( function( aData ) {
+
+                var itemsHtml = "";
+                $.each(aData, function(i, oBeer) {
+                    itemsHtml += '<option value="' + oBeer.id + '">' + oBeer.name + '</option>';
+                })
+
+                $('#results').removeClass("hidden");
+
+                $("#results select").html(itemsHtml);
+
+            })
+
+        });
+
+        $("#results select").on('change', function() {
+
+            var idBeer = $(this).val();
+            var urlDetailsBeer = 'https://quiet-inlet-67115.herokuapp.com/api/beer/' + idBeer;
+
+            $.ajax({
+                url: urlDetailsBeer,
+                dataType: 'json'
+            })
+            .success(function( oDataBeer ) {
+                console.log (oDataBeer);
+                $('#details').removeClass("hidden");
+
+                $("#details h1").html(oDataBeer.name)
+                $("#details p.description").html(oDataBeer.description)
+
+                if (oDataBeer.labels) {
+                    $("#details img").attr("src", oDataBeer.labels.medium);
+                }
+
+                if (oDataBeer.isOrganic === "N") {
+                    $("#details p.organic strong").html("IS NOT");
+                }
+                else {
+                    $("#details p.organic strong").html("IS");
+                }
+
+            })
+
+        });
+
+
+    </script>
+
+
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Voucher ============= -->
+
+
+       
+        
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1>Our Famous Dishes <span>Menu</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Have a look to our dishes!</h1>
+                    <div class="icon-hotdog fa-2x"></div>
+                    <p class="desc-text">Each food is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider3.JPG" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <section id ="pricing" class="description_content">
+             <!-- <div class="pricing background_content">
+                <h1><span>Affordable</span> pricing</h1>
+             </div> -->
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="breakfast"><a class="menu" href="Breakfast-menu.html">Breakfast</a></li>
+                                <li class="filter" data-filter="special"><a class="menu" href="">Lunch</a></li>
+                                <li class="filter" data-filter="desert"><a class="menu" href="DINNERMENU.docx">Dinner</a></li>
+                                <li class="filter" data-filter="dinner"><a class="menu" href="">Dessert</a></li>
+                            </ul> 
+                            <!-- <ul id="portfolio">
+                                <li class="item breakfast"><img src="images/food_icon01.jpg" alt="Food" >
+                                    <h2 class="white">€20</h2>
+                                </li>
+ -->
+                                <!-- <li class="item dinner special"><img src="images/food_icon02.jpg" alt="Food" >
+                                    <h2 class="white">€20</h2>
+                                </li>
+                                <li class="item dinner breakfast"><img src="images/food_icon03.jpg" alt="Food" >
+                                    <h2 class="white">€18</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon04.jpg" alt="Food" >
+                                    <h2 class="white">€15</h2>
+                                </li>
+                                <li class="item dinner"><img src="images/food_icon05.jpg" alt="Food" >
+                                    <h2 class="white">€20</h2>
+                                </li>
+                                <li class="item special"><img src="images/food_icon06.jpg" alt="Food" >
+                                    <h2 class="white">€22</h2>
+                                </li>
+                                <li class="item desert"><img src="images/food_icon07.jpg" alt="Food" >
+                                    <h2 class="white">€32</h2>
+                                </li>
+                                <li class="item desert breakfast"><img src="images/food_icon08.jpg" alt="Food" >
+                                    <h2 class="white">€38</h2>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Reservation  ============= -->
+
+        <section  id="reservation"  class="description_content">
+            <div class="featured background_content">
+                <h1>Reserve a Table!</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
+                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="State" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <!-- Message -->
+                                        <div class="right-text">
+                                            <h2>Hours</h2><hr>
+                                            <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
+                                            <p>Saturday & Sunday: 8:00 AM - 12:00 PM</p>
+                                            <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
+                                            <p>Monday to Saturday: 6:00 PM -11:30 AM</p>
+                                            <p>Sunday to Monday: 5:30 PM - 11:30 AM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">FOLLOW</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="https://twitter.com/vishaldara" target="_blank"></a></li>
+                        <li><a class="icon-github color_animation" href="https://github.com/Vishaldara" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="https://www.linkedin.com/in/vishal-dara-0b40052b?trk=nav_responsive_tab_profile" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" href="https://mg.mail.yahoo.com/neo/launch?.rand=3gjnqpniobri9#2299195721"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">OR DIAL</span>
+                    <span class="social_info"><a class="color_animation" href="tel:01-123-4567">(+353) 01-123-4567</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            <div class="map">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.664063989472!2d91.8316103150038!3d24.909437984030877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505558dd0be6a1%3A0x65c7e47c94b6dc45!2sTechnext!5e0!3m2!1sen!2sbd!4v1444461079802" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+                <div style="width:100%;max-width:100%;overflow:hidden;height:500px;color:red;"><div id="gmap_display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=+Maldron+Hotel+Dublin+24,+Dublin,+Ireland&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embed-map-code" rel="nofollow" href="http://www.szablonypremium.pl/wordpress" id="auth-map-data">motywy wordpress</a><style>#gmap_display img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=b3af4efd-72f5-3ef2-1c26-3634effd1e31&c=embed-map-code&u=1475074347" defer="defer" async="async"></script>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner contact">
+                            <!-- Form Area -->
+                            <div class="contact-form">
+                                <!-- Form -->
+                                <form id="contact-us" method="post" action="contact.php">
+                                    <!-- Left Inputs -->
+                                    <div class="col-md-6 ">
+                                        <!-- Name -->
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                        <!-- Email -->
+                                        <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                        <!-- Subject -->
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                    </div><!-- End Left Inputs -->
+                                    <!-- Right Inputs -->
+                                    <div class="col-md-6">
+                                        <!-- Message -->
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                    </div><!-- End Right Inputs -->
+                                    <!-- Bottom Submit -->
+                                    <div class="relative fullwidth col-xs-12">
+                                        <!-- Send Button -->
+                                        <button type="submit" id="submit" name="submit" class="form-btn">Send Message</button> 
+                                    </div><!-- End Bottom Submit -->
+                                    <!-- Clear -->
+                                    <div class="clear"></div>
+                                </form>
+                            </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+         <footer class="sub_footer">
+            <div class="container">
+         <div class="col-md-4"><p class="sub-footer-text text-center"> <a href="#top" target="_blank"><spam class="footer-name"> Season's Restaurant</spam></a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">TOP</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center"> <a href="#" target="_blank">©2016 The Season's Restaurant All Rights Reserved | web development by Dara's Digital</a></p>        </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
 </html>
+
+
+
