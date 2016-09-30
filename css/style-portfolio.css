@@ -2,12 +2,9 @@
 /** page structure **/
 #w {
   display: block;
-  max-width: 1100px;
-  min-width: 280px;
-  /*padding-top: 20px;*/
-  margin: 0 auto;
-  margin-left: -700px;
+  padding-top: 20px;
   background-color:gray;
+  float: left;
 }
 
 
@@ -132,7 +129,7 @@
 
 }
 
-.breakfast_text,h2,h3,h4,h5,p{
+.breakfast_text,h2,h3,h4,h5{
   
  font-size: 20px;
  color:white;
@@ -152,7 +149,7 @@
 
 }
 
-.lunch_text,h2,h3,h4,h4,h5,p{
+.lunch_text,h2,h3,h4,h4,h5{
   
  font-size: 20px;
  color:white;
@@ -214,4 +211,8 @@
 }
 #placeholder{
   float: right;
+}
+#result>p{
+  color:black;
+
 }
